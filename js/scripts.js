@@ -6,7 +6,7 @@ $(document).ready(function() {
     var sentArray = sentence.split("");
 
     for (var index = 0; index <= sentArray.length-1; index++) {
-      if (sentArray[index] === "a" || sentArray[index] === "e" ||sentArray[index] === "i" || sentArray[index] === "o" || sentArray[index] === "u") {
+      if (sentArray[index] === "a" || sentArray[index] === "e" ||sentArray[index] === "i" || sentArray[index] === "o" || sentArray[index] === "u" || sentArray[index] === "A" || sentArray[index] === "E" ||sentArray[index] === "I" || sentArray[index] === "O" || sentArray[index] === "U") {
         sentArray[index] = "-";
       }
     } 
